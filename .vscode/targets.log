@@ -1,0 +1,658 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Sat Apr 10 21:55:56 2021
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# makefile (from '../../libdaisy/core/Makefile', line 19)
+OCDFLAGS = -f $(PGM_DEVICE) -f target/$(CHIPSET).cfg
+# makefile (from '../../libdaisy/core/Makefile', line 80)
+AS = $(PREFIX)gcc -x assembler-with-cpp
+# makefile (from '../../libdaisy/core/Makefile', line 196)
+LIBDIR = -L$(LIBDAISY_DIR)/build  -L $(DAISYSP_DIR)/build
+# environment
+USERPROFILE = C:\Users\Krasn
+# environment
+ProgramW6432 = C:\Program Files
+# environment
+TMPDIR = C:\Users\Krasn\AppData\Local\Temp
+# environment
+MKL_SERIAL = YES
+# environment
+LOCALAPPDATA = C:\Users\Krasn\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-b6a97c7f-8b2f-4624-8714-dc085217e2e6-sock
+# makefile (from '../../libdaisy/core/Makefile', line 16)
+OCD = openocd
+# makefile (from '../../libdaisy/core/Makefile', line 18)
+PGM_DEVICE = interface/stlink.cfg
+# makefile (from '../../libdaisy/core/Makefile', line 147)
+FATFS_SOURCES = $(FATFS_DIR)/diskio.c $(FATFS_DIR)/ff.c $(FATFS_DIR)/ff_gen_drv.c $(FATFS_DIR)/option/ccsbcs.c
+# environment
+VSCODE_CWD = C:\Users\Krasn\source\repos\DaisyExamples
+# environment
+MINGW_PREFIX = C:/Program Files/Git/mingw64
+# environment
+SYSTEMROOT = C:\Windows
+# makefile (from '../../libdaisy/core/Makefile', line 195)
+LIBS = -ldaisy -lc -lm -lnosys -ldaisysp
+# makefile (from '../../libdaisy/core/Makefile', line 154)
+C_INCLUDES = -include stm32h7xx.h -I$(LIBDAISY_DIR) -I$(LIBDAISY_DIR)/src/ -I$(LIBDAISY_DIR)/src/sys -I$(LIBDAISY_DIR)/src/usbd -I$(LIBDAISY_DIR)/Drivers/CMSIS/Include/ -I$(LIBDAISY_DIR)/Drivers/CMSIS/DSP/Include -I$(LIBDAISY_DIR)/Drivers/CMSIS/Device/ST/STM32H7xx/Include -I$(LIBDAISY_DIR)/Drivers/STM32H7xx_HAL_Driver/Inc/ -I$(LIBDAISY_DIR)/Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I$(SYSTEM_FILES_DIR)/ -I$(DAISYSP_DIR)/Source -I$(FATFS_DIR)
+# environment
+PROCESSOR_LEVEL = 23
+# makefile (from '../../libdaisy/core/Makefile', line 82)
+SZ = $(PREFIX)size
+# makefile (from '../../libdaisy/core/Makefile', line 3)
+CHIPSET = stm32h7x
+# default
+MAKE_COMMAND := C:/Users/Krasn/scoop/apps/make/current/bin/make.exe
+# makefile (from 'Makefile', line 5)
+CPP_SOURCES = simpler.cpp
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+ACLOCAL_PATH = C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal
+# makefile (from '../../libdaisy/core/Makefile', line 114)
+C_DEFS = -DUSE_HAL_DRIVER -DSTM32H750xx -DHSE_VALUE=16000000  -DCORE_CM7 -DSTM32H750IB -DARM_MATH_CM7 -DUSE_FULL_LL_DRIVER 
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_22400_FDQRPWXSZLNJSQQS
+# environment
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+# environment
+ORIGINAL_TEMP = C:/Users/Krasn/AppData/Local/Temp
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = C:/Users/Krasn/source/repos/DaisyExamples
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+HOSTNAME = DESKTOP-V189GTC
+# environment
+OLDPWD = C:/Users/Krasn/source/repos/DaisyExamples/seed
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+MSYS2_ARG_CONV_EXCL = C:/
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# makefile (from '../../libdaisy/core/Makefile', line 104)
+AS_DEFS = 
+# environment
+SSH_ASKPASS = C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass
+# environment
+LANG = en_US.UTF-8
+# environme 
+nt
+OMP_NUM_THREADS = 8
+# makefile (from '../../libdaisy/core/Makefile', line 17)
+OCD_DIR = /usr/local/share/openocd/scripts
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\Krasn\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# environment
+ChocolateyInstall = C:\ProgramData\chocolatey
+# makefile
+MAKEFLAGS = pqrR
+# environment
+PKG_CONFIG_PATH = C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig
+# environment
+INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+# makefile (from '../../libdaisy/core/Makefile', line 179)
+C_STANDARD = -std=gnu11
+# environment
+POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Pro
+# makefile (from '../../libdaisy/core/Makefile', line 5)
+TARGET_BIN = $(TARGET).bin
+# makefile
+CURDIR := c:/Users/Krasn/source/repos/DaisyExamples/pod/simpler
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from '../../libdaisy/core/Makefile', line 84)
+HEX = $(CP) -O ihex
+# environment
+MSYSTEM_CARCH = x86_64
+# makefile (from '../../libdaisy/core/Makefile', line 7)
+FLASH_ADDRESS = 0x08000000
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from '../../libdaisy/core/Makefile', line 186)
+LDSCRIPT = $(SYSTEM_FILES_DIR)/STM32H750IB_flash.lds
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# environment
+GIT_ASKPASS = c:\Users\Krasn\scoop\apps\vscode\1.55.0\resources\app\extensions\git\dist\askpass.sh
+# makefile (from '../../libdaisy/core/Makefile', line 1)
+MAKEFILE_LIST := Makefile ../../libdaisy/core/Makefile
+# makefile (from '../../libdaisy/core/Makefile', line 157)
+ASFLAGS = $(MCU) $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 22400
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# makefile (from '../../libdaisy/core/Makefile', line 121)
+AS_INCLUDES = 
+# environment
+ProgramFiles(x86) = C:\Program Files (x86)
+# environment
+MINGW_CHOST = x86_64-w64-mingw32
+# makefile (from '../../libdaisy/core/Makefile', line 79)
+GDB = $(PREFIX)gdb
+# makefile (from '../../libdaisy/core/Makefile', line 81)
+CP = $(PREFIX)objcopy
+# environment
+OneDriveConsumer = C:\Users\Krasn\OneDrive
+# automatic
+*F = $(notdir $*)
+# environment
+MANPATH = C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+OneDrive = C:\Users\Krasn\OneDrive
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from '../../libdaisy/core/Makefile', line 6)
+TARGET_ELF = $(TARGET).elf
+# default
+MAKE_HOST := Windows32
+# environment
+INFOPATH = C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info
+# makefile
+SHELL = C:/Program Files/Git/usr/bin/sh.exe
+# environment
+ORIGINAL_PATH = C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Krasn\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7;C:\Program Files\PuTTY;C:\Program Files (x86)\ZeroTier\One;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin;C:\Users\Krasn\scoop\apps\python\current\Scripts;C:\Users\Krasn\scoop\apps\python\current;C:\Users\Krasn\scoop\shims;C:\Users\Krasn\AppData\Local\Microsoft\WindowsApps;C:\Users\Krasn\AppData\Roaming\npm;C:\Users\Krasn\AppData\Local\Yarn\bin;C:\Users\Krasn\.dotnet\tools;C:\Users\Krasn\.dotnet\tools;A:\Program Files\JetBrains\PyCharm 2020.2.2\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\Krasn\AppData\Roaming\xPacks\OpenOCD\0.11.0-1\bin;C:\Users\Krasn\AppData\Roaming\dfu-util-0.10\win64;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin
+# environment
+windir = C:\Windows
+# environment
+HOMEPATH = \Users\Krasn
+# environment
+PLATFORMIO_CALLER = vscode
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 2
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+WINDIR = C:\Windows
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Users\Krasn\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Krasn\bin;C:\Program Files (x86)\Common Files\In 
+tel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7;C:\Program Files\PuTTY;C:\Program Files (x86)\ZeroTier\One;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin;C:\Users\Krasn\scoop\apps\python\current\Scripts;C:\Users\Krasn\scoop\apps\python\current;C:\Users\Krasn\scoop\shims;C:\Users\Krasn\AppData\Local\Microsoft\WindowsApps;C:\Users\Krasn\AppData\Roaming\npm;C:\Users\Krasn\AppData\Local\Yarn\bin;C:\Users\Krasn\.dotnet\tools;C:\Users\Krasn\.dotnet\tools;A:\Program Files\JetBrains\PyCharm 2020.2.2\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\Krasn\AppData\Roaming\xPacks\OpenOCD\0.11.0-1\bin;C:\Users\Krasn\AppData\Roaming\dfu-util-0.10\win64;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+# environment
+COMPUTERNAME = DESKTOP-V189GTC
+# default
+MAKEFILES := 
+# environment
+VSCODE_GIT_IPC_HANDLE = \\.\pipe\vscode-git-01a4a78b9e-sock
+# environment
+KMP_DUPLICATE_LIB_OK = TRUE
+# environment
+VSCODE_GIT_ASKPASS_NODE = C:\Users\Krasn\scoop\apps\vscode\current\Code.exe
+# automatic
+^F = $(notdir $^)
+# makefile (from '../../libdaisy/core/Makefile', line 94)
+FPU = -mfpu=fpv5-d16
+# environment
+MINGW_PACKAGE_PREFIX = mingw-w64-x86_64
+# environment
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+# makefile (from '../../libdaisy/core/Makefile', line 97)
+FLOAT-ABI = -mfloat-abi=hard
+# environment
+PROMPT = $P$G
+# environment
+VSCODE_GIT_ASKPASS_MAIN = c:\Users\Krasn\scoop\apps\vscode\1.55.0\resources\app\extensions\git\dist\askpass-main.js
+# makefile (from '../../libdaisy/core/Makefile', line 66)
+PREFIX = arm-none-eabi-
+# environment
+LOGONSERVER = \\DESKTOP-V189GTC
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = Krasn
+# environment
+TERM_PROGRAM = vscode
+# makefile (from '../../libdaisy/core/Makefile', line 180)
+CPP_STANDARD = -std=gnu++14
+# makefile (from '../../libdaisy/core/Makefile', line 91)
+CPU = -mcpu=cortex-m7
+# makefile (from '../../libdaisy/core/Makefile', line 145)
+FATFS_DIR = $(LIBDAISY_DIR)/Middlewares/Third_Party/FatFs/src
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+ChocolateyLastPathUpdate = 132262152514561137
+# environment
+MSYSTEM_CHOST = x86_64-w64-mingw32
+# environment
+ 
+NO_PROXY = 127.0.0.1
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+CONFIG_SITE = C:/Program Files/Git/mingw64/etc/config.site
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from '../../libdaisy/core/Makefile', line 214)
+OBJECTS = $(addprefix $(BUILD_DIR)/,$(notdir $(C_SOURCES:.c=.o))) $(addprefix $(BUILD_DIR)/,$(notdir $(CPP_SOURCES:.cpp=.o))) $(addprefix $(BUILD_DIR)/,$(notdir $(ASM_SOURCES:.s=.o)))
+# environment
+USERDOMAIN = DESKTOP-V189GTC
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# environment
+SystemRoot = C:\Windows
+# makefile (from '../../libdaisy/core/Makefile', line 30)
+OPT = -O2
+# makefile (from '../../libdaisy/core/Makefile', line 170)
+CPPFLAGS = $(CFLAGS) -fno-exceptions -fasm -finline -finline-functions-called-once -fshort-enums -fno-move-loop-invariants -fno-unwind-tables 
+# environment
+PLATFORMIO_PATH = C:\Users\Krasn\.platformio\penv\Scripts;C:\Users\Krasn\.platformio\penv;C:\Users\Krasn\.platformio\python3;C:\Users\Krasn\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Krasn\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7;C:\Program Files\PuTTY;C:\Program Files (x86)\ZeroTier\One;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin;C:\Users\Krasn\scoop\apps\python\current\Scripts;C:\Users\Krasn\scoop\apps\python\current;C:\Users\Krasn\scoop\shims;C:\Users\Krasn\AppData\Local\Microsoft\WindowsApps;C:\Users\Krasn\AppData\Roaming\npm;C:\Users\Krasn\AppData\Local\Yarn\bin;C:\Users\Krasn\.dotnet\tools;C:\Users\Krasn\.dotnet\tools;A:\Program Files\JetBrains\PyCharm 2020.2.2\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\Krasn\AppData\Roaming\xPacks\OpenOCD\0.11.0-1\bin;C:\Users\Krasn\AppData\Roaming\dfu-util-0.10\win64;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;C:\Users\Krasn\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Krasn\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7;C:\Program Files\PuTTY;C:\Program Files (x86)\ZeroTier\One;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin;C:\Users\Krasn\scoop\apps\python\current\Scripts;C:\Users\Krasn\scoop\apps\python\current;C:\Users\Krasn\scoop\shims;C:\Users\Krasn\AppData\Local\Microsoft\WindowsApps;C:\Users\Krasn\AppData\Roaming\npm;C:\Users\Krasn\AppData\Local\Yarn\bin;C:\Users\Krasn\.dotnet\tools;C:\Users\Krasn\.dotnet\tools;A:\Program Files\JetBrains\PyCharm 2020.2.2\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\Krasn\AppData\Roaming\xPacks\OpenOCD\0.11.0-1\bin;C:\Users\Krasn\AppData\Roaming\dfu-util-0.10\win64;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2020-q4-major\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+# environment
+MSYSTEM_PREFIX = C:/Program Files/Git/mingw64
+# makefile
+.DEFAULT_GOAL := all
+# environment
+ProgramFiles = C:\Program Files (x86)
+# environment
+SystemDrive = C:
+# environment
+DISPLAY = needs-to-be-defined
+# default
+MAKE_VERSION := 4.3
+# makefile (from '../../libdaisy/core/Makefile', line 200)
+LDFLAGS = $(MCU) --specs=nano.specs --specs=nosys.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-V189GTC
+# makefile (from '../../libdaisy/core/Makefile', line 100)
+MCU = $(CPU) -mthumb $(FPU) $(FLOAT-ABI)
+# environment
+NUMBER_OF_PROCESSORS = 24
+# environment
+PUBLIC = C:\Users\Public
+# environment
+ProgramData = C:\ProgramData
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = C:\Users\Krasn\AppData\Roaming\Code\CachedData\c185983a683d14c396952dd432459097bc7f757f
+# environment
+_ = C:/Windows/system32/cmd.exe
+# makefile (from '../../libdaisy/core/Makefile', line 85)
+BIN = $(CP) -O binary -S
+# environment
+APPDATA = C:\Users\Krasn\AppData\Roaming
+# makefile (from '../../libdaisy/core/Makefile', line 167)
+CFLAGS = $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -Wno-missing-attributes -fasm -fdata-sections -ffunction-sections -MMD -MP -MF"$(@:%.o=%.d)"
+# environment
+HOMEDRIVE = C:
+# environment
+COLORTERM = truecolor
+# makefile (from '../../libdaisy/core/Makefile', line 21)
+GDB_FLAGS = 
+# environment
+PyCh 
+arm = A:\Program Files\JetBrains\PyCharm 2020.2.2\bin;
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+DriverData = C:\Windows\System32\Drivers\DriverData
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+MSYSTEM = MINGW64
+# makefile (from '../../libdaisy/core/Makefile', line 39)
+BUILD_DIR = build
+# environment
+PLATFORMIO_IDE = 2.3.1
+# environment
+HOME = C:\Users\Krasn
+# environment
+EXEPATH = C:\Program Files\Git\bin
+# makefile (from 'Makefile', line 8)
+LIBDAISY_DIR = ../../libdaisy
+# environment
+CommonProgramW6432 = C:\Program Files\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\Krasn\AppData\Local\Temp
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\0aa01a3bc494a8b67701cd05e2e3a7c6-1.55.0-main-sock
+# default
+.RECIPEPREFIX := 
+# environment
+ORIGINAL_TMP = C:/Users/Krasn/AppData/Local/Temp
+# automatic
+<F = $(notdir $<)
+# makefile (from '../../libdaisy/core/Makefile', line 153)
+C_SOURCES = $(SYSTEM_FILES_DIR)/startup_stm32h750xx.c $(FATFS_SOURCES)
+# environment
+PLINK_PROTOCOL = ssh
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'Makefile', line 2)
+TARGET = simpler
+# environment
+SESSIONNAME = Console
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
+# environment
+PROCESSOR_REVISION = 7100
+# makefile (from '../../libdaisy/core/Makefile', line 78)
+CXX = $(PREFIX)g++ 
+# makefile (from '../../libdaisy/core/Makefile', line 77)
+CC = $(PREFIX)gcc
+# environment
+ComSpec = C:\Windows\system32\cmd.exe
+# environment
+TERM_PROGRAM_VERSION = 1.55.0
+# makefile (from 'Makefile', line 12)
+SYSTEM_FILES_DIR = $(LIBDAISY_DIR)/core
+# makefile (from 'Make 
+file', line 9)
+DAISYSP_DIR = ../../DaisySP
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
+# variable set hash-table stats:
+# Load=196/1024=19%, Rehash=0, Collisions=40/333=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# ../../libdaisy/core (key c:/Users/Krasn/source/repos/DaisyExamples/libdaisy/core, mtime 1618087807): 4 files, no impossibilities so far.
+# ../../libdaisy/Middlewares/Third_Party/FatFs/src/option (key c:/Users/Krasn/source/repos/DaisyExamples/libdaisy/Middlewares/Third_Party/FatFs/src/option, mtime 1618087807): 9 files, no impossibilities.
+# build: could not be stat'd.
+# . (key c:/Users/Krasn/source/repos/DaisyExamples/pod/simpler, mtime 1618109586): 9 files, no impossibilities.
+# ../../libdaisy/Middlewares/Third_Party/FatFs/src (key c:/Users/Krasn/source/repos/DaisyExamples/libdaisy/Middlewares/Third_Party/FatFs/src, mtime 1618087807): 11 files, no impossibilities.
+
+# 33 files, no impossibilities in 5 directories.
+
+# Implicit Rules
+
+build/%.o: %.c Makefile | build
+#  recipe to execute (from '../../libdaisy/core/Makefile', line 218):
+	$(CC) -c $(CFLAGS) $(C_STANDARD) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+build/%.o: %.cpp Makefile | build
+#  recipe to execute (from '../../libdaisy/core/Makefile', line 221):
+	$(CXX) -c $(CPPFLAGS) $(CPP_STANDARD) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.cpp=.lst)) $< -o $@
+
+build/%.o: %.s Makefile | build
+#  recipe to execute (from '../../libdaisy/core/Makefile', line 224):
+	$(AS) -c $(CFLAGS) $< -o $@
+
+build/%.hex: build/%.elf | build
+#  recipe to execute (from '../../libdaisy/core/Makefile', line 231):
+	$(HEX) $< $@
+
+build/%.bin: build/%.elf | build
+#  recipe to execute (from '../../libdaisy/core/Makefile', line 234):
+	$(BIN) $< $@
+
+# 5 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+build/ff.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+debug_client:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from '../../libdaisy/core/Makefile', line 265):
+	ddd --eval-command="target remote localhost:3333" --debugger $(GDB) $(TARGET_ELF)
+
+program-dfu:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from '../../libdaisy/core/Makefile', line 276):
+	dfu-util -a 0 -s $(FLASH_ADDRESS):leave -D $(BUILD_DIR)/$(TARGET_BIN) -d ,0 
+483:df11
+
+# Not a target:
+build/simpler.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../../libdaisy/core/startup_stm32h750xx.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 15:50:07
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/ccsbcs.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+debug:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from '../../libdaisy/core/Makefile', line 253):
+	@if ! nc -z localhost 3333; then \
+        echo "\n\t[Error] OpenOCD is not running! Start it with: 'make openocd'\n"; exit 1; \
+    else \
+        $(GDB)  -ex "target extended localhost:3333" \
+            -ex "monitor arm semihosting enable" \
+            -ex "monitor reset halt" \
+            -ex "load" \
+            -ex "monitor reset init" \
+            $(GDBFLAGS) build/$(TARGET).elf; \
+    fi
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 21:53:05
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from '../../libdaisy/core/Makefile', line 243):
+	-rm -fR $(BUILD_DIR)
+
+build/simpler.elf: build/startup_stm32h750xx.o build/diskio.o build/ff.o build/ff_gen_drv.o build/ccsbcs.o build/simpler.o Makefile
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+#  recipe to execute (from '../../libdaisy/core/Makefile', line 227):
+	$(CXX) $(OBJECTS) $(LDFLAGS) -o $@
+	$(SZ) $@
+
+# Not a target:
+build/ff_gen_drv.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: build/simpler.elf build/simpler.hex build/simpler.bin
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+build:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/12=8%
+#  recipe to execute (from '../../libdaisy/core/Makefile', line 237):
+	mkdir $@
+
+# Not a target:
+build/diskio.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  Fi 
+le has not been updated.
+
+openocd:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from '../../libdaisy/core/Makefile', line 250):
+	$(OCD) -s $(OCD_DIR) $(OCDFLAGS)
+
+build/startup_stm32h750xx.o: ../../libdaisy/core/startup_stm32h750xx.c Makefile | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'startup_stm32h750xx'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+#  recipe to execute (from '../../libdaisy/core/Makefile', line 218):
+	$(CC) -c $(CFLAGS) $(C_STANDARD) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/simpler.hex:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+build/simpler.bin:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../../libdaisy/core/Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 15:50:07
+#  File has been updated.
+#  Successfully updated.
+
+program:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from '../../libdaisy/core/Makefile', line 268):
+	$(OCD) -s $(OCD_DIR) $(OCDFLAGS) \
+		-c "program ./build/$(TARGET).elf verify reset exit"
+
+# files hash-table stats:
+# Load=22/1024=2%, Rehash=0, Collisions=0/63=0%
+# VPATH Search Paths
+
+vpath %.c ../../libdaisy/Middlewares/Third_Party/FatFs/src;../../libdaisy/Middlewares/Third_Party/FatFs/src/option;../../libdaisy/core
+
+# 1 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 58 / storage = 757 B / avg = 13 B
+# current buf: size = 8174 B / used = 757 B / count = 58 / avg = 13 B
+
+# strcache performance: lookups = 106 / hit rate = 45%
+# hash-table stats:
+# Load=58/8192=1%, Rehash=0, Collisions=0/106=0%
+# Finished Make data base on Sat Apr 10 21:55:56 2021
+
+ 
