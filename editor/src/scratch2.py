@@ -5,7 +5,7 @@ from dataclasses import dataclass
 from tempfile import TemporaryFile
 import struct
 
-SAMPLE_DIR = "C:\\Users\\Krasn\\Downloads\\SAMPLES\\adjusted"
+SAMPLE_DIR = "..\\samples\\adjusted"
 
 
 @dataclass(frozen=True)
