@@ -127,3 +127,4 @@ bin/
 .visualgdb
 VisualGDBCache
 vs/*.log
+/**/*.log
