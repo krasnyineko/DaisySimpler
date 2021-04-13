@@ -58,7 +58,7 @@ void populatebuffer()
     do
     {
         f_read(&SDFile, &buffer, 1024, &bytesread);
-        hw.seed.PrintLine("reading chunk");
+        // hw.seed.PrintLine("reading chunk");
     } while(bytesread > 0);
 
     f_close(&SDFile);
@@ -77,8 +77,8 @@ int main(void)
     {
         bufferplayer.Trig(0);
         System::Delay(500);
-        bufferplayer.Trig(0);
-        bufferplayer.Trig(3);
-        System::Delay(500);
+        // bufferplayer.Trig(0);
+        // bufferplayer.Trig(3);
+        // System::Delay(500);
     }
 }
