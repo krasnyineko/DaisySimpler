@@ -58,7 +58,7 @@ void populatebuffer()
     const uint16_t chunksize = 512;
     for(size_t i = 0; i < bankheader.datasize; i += chunksize)
     {
-        f_read(&SDFile, &buffer[i], chunksize * 2, &bytesread);
+        f_read(&SDFile, &buffer[i], chunksize * sizeof(int16_t), &bytesread);
     }
     f_close(&SDFile);
     hw.seed.PrintLine("Closed file.");
