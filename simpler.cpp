@@ -54,6 +54,20 @@ void populatebuffer()
         hw.seed.PrintLine("Sample info %d loaded", i);
     }
     hw.seed.PrintLine("Reading bulk data");
+
+    const uint16_t chunksize = 512;
+    for(size_t i = 0; i < bankheader.datasize; i += chunksize)
+    {
+        f_read(&SDFile, &buffer[i], chunksize * 2, &bytesread);
+    }
+    size_t i = 0;
+    // do
+    // {
+    //     f_read(&SDFile, &buffer[i * chunksize], chunksize * 2, &bytesread);
+    //     i++;
+    // } while(bytesread > 0);
+
+
     // Reading in chunks made this faster
 
     // size_t offset = 0;
