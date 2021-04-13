@@ -60,30 +60,8 @@ void populatebuffer()
     {
         f_read(&SDFile, &buffer[i], chunksize * 2, &bytesread);
     }
-    size_t i = 0;
-    // do
-    // {
-    //     f_read(&SDFile, &buffer[i * chunksize], chunksize * 2, &bytesread);
-    //     i++;
-    // } while(bytesread > 0);
-
-
-    // Reading in chunks made this faster
-
-    // size_t offset = 0;
-    // do
-    // {
-    //     f_read(&SDFile, &buffer[offset], 512, &bytesread);
-    //     offset += bytesread;
-    //     // hw.seed.PrintLine("reading chunk");
-    // } while(bytesread > 0);
-
     f_close(&SDFile);
     hw.seed.PrintLine("Closed file.");
-    for(size_t i = 0; i < 16; i++)
-    {
-        hw.seed.PrintLine("%04X", buffer[i]);
-    }
 }
 
 int main(void)
