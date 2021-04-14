@@ -126,4 +126,4 @@ cube/Daisy_Seed_Rev3/
 bin/
 .visualgdb
 VisualGDBCache
-vs/*.log
+*.log
