@@ -19,14 +19,19 @@ static kn::BufferPlayer      bufferplayer;
 static int16_t DSY_SDRAM_BSS buffer[MAX_BUFFER_SIZE];
 static kn::SampleInfo        sampleinfo[kn::MAX_SAMPLES];
 static BankHeader            bankheader;
-
+Metro                        tick;
 
 void AudioCallback(float **in, float **out, size_t size)
 {
     hw.ProcessAllControls();
     for(size_t i = 0; i < size; i++)
     {
-        out[0][i] = out[1][i] = s162f(bufferplayer.Process());
+        bool t = tick.Process();
+
+        if(t)
+        {
+            out[0][i] = out[1][i] = s162f(bufferplayer.Process());
+        }
     }
 }
 
@@ -68,13 +73,16 @@ int main(void)
 {
     hw.Init();
     hw.StartAdc();
+    float callbackrate = hw.AudioCallbackRate();
+    float samplerate   = hw.AudioSampleRate();
     hw.seed.StartLog(true);
     populatebuffer();
     bufferplayer.Init(buffer, sampleinfo, bankheader.numsamples);
+    tick.Init(41000, callbackrate);
     hw.StartAudio(AudioCallback);
     while(1)
     {
-        bufferplayer.Trig(0);
+        bufferplayer.Trig(11);
         System::Delay(500);
         // bufferplayer.Trig(0);
         // bufferplayer.Trig(3);
